@@ -3,7 +3,7 @@ const { calcularEstadisticas } = require('./components/stats');
 const formatter = require('./utils/formatter');
 const { obtenerTareas, crearTarea, obtenerFraseMotivacional } = require('./services/taskService');
 
-const nuevaTarea = {
+const nuevaTarea = { 
   titulo      : 'Entregar práctica 7 de Ingeniería de Software',
   materia     : 'Ingeniería de Software',
   fechaEntrega: '2026-06-13'
